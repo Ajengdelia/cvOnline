@@ -1,0 +1,56 @@
+.fotoku{
+border-radius: 50%;
+height: 200px;
+object-fit: cover;
+margin: 15px auto;
+display: block;
+border: solid 5px white ;
+box-shadow: 1px 1px 15px yellow;
+
+
+
+
+}
+.skills-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.skills-list h2 {
+    text-align: center;
+    color: #333;
+}
+
+.skill {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.skill h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #007bff; /* Warna biru */
+}
+
+.skill p {
+    margin: 5px 0 0;
+    color: #666; /* Warna abu-abu untuk level */
+}
+
+.skill:hover {
+    transform: scale(1.05); /* Efek hover */
+    border-color: #007bff; /* Warna border saat hover */
+}
+
+ul {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding default */
+}
